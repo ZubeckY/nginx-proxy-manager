@@ -3,7 +3,7 @@ services:
     image: 'jc21/nginx-proxy-manager:latest'
     restart: unless-stopped
     ports:
-      - '85:80'
+      - '85:85'
       - '8249:81'
       - '443:443'
     volumes:
